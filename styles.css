@@ -1,3 +1,38 @@
+body {
+    background: linear-gradient(to bottom, red, orange, yellow);
+}
+
 body{
     line-height: 2;
+}
+body {
+    font-size: 10px;
+}
+h1 {
+    font-size: 20px;
+}
+h2, h3 {
+    font-size: 13px;
+}
+@media (min-width: 1200px) {
+    body {
+        font-size: 12.5px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2, h3 {
+        font-size: 17px;
+    }
+}
+@media (min-width: 1920px) {
+    body {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2, h3 {
+        font-size: 20px;
+    }
 }
